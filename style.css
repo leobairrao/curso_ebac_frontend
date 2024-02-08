@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#form-tarefas {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+input, button {
+    background-color: white;
+    padding: 4px;
+    border-radius: 10px;
+    margin: 0px 10px;
+    border: 1px solid black;
+}
+
+button {
+    cursor: pointer;
+    background-color: #009700;
+    color: #fff;
+    font-weight: bold;
+}
+
+ul {
+    text-align: center;
+}
+
+ul li {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.completa {
+    text-decoration: line-through;
+}
